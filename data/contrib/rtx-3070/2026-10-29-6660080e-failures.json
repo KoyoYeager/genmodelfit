@@ -1,0 +1,39 @@
+{
+ "contrib_schema": 3,
+ "kind": "genmodelfit-failures",
+ "tool": {
+  "name": "genmodelfit",
+  "version": "0.13.0"
+ },
+ "date": "2026-10-29",
+ "system": {
+  "os_family": "windows",
+  "ram_total_gb": 32,
+  "gpu": {
+   "name": "NVIDIA GeForce RTX 3070",
+   "vram_gb": 8.0,
+   "arch": "ampere",
+   "compute_capability": "8.6",
+   "driver": "610.88",
+   "vendor": "nvidia",
+   "backend": "cuda"
+  }
+ },
+ "comfyui_version": "0.19.3",
+ "db": {
+  "generated_at": "2026-10-21",
+  "sha256": "870e4e4516ad"
+ },
+ "failures": [
+  {
+   "model_id": "utility_birefnet_remove_background",
+   "outcome": "missing_nodes",
+   "seconds": null,
+   "missing_nodes": [
+    "LoadBackgroundRemovalModel",
+    "RemoveBackground"
+   ],
+   "before_run": true
+  }
+ ]
+}
